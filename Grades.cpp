@@ -35,7 +35,7 @@ int main(){
 	for(int i = 0; i < moreGradesToCalculate.length(); i++){
 		moreGradesToCalculate[i] = toupper(moreGradesToCalculate[i]);
 	}
-	while (moreGradesToCalculate == "YES"){
+	while (moreGradesToCalculate == "YES" | moreGradesToCalculate == "Y"){
 //для какого студента вести расчиет
 	
 	cout << "Enter student type " <<
@@ -176,7 +176,7 @@ int main(){
 		}
 	}
 	
-	cout << "thank for using the Grades Calculation program!";
+	cout << "Thank for using the Grades Calculation program!" << endl;
 	
 	//system("pause");
 	return 0;
