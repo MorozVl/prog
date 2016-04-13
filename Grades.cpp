@@ -40,6 +40,7 @@ int main(){
 	
 	cout << "Enter student type " <<
 		"(1 = English; 2 = Math; 3 = Science): ";
+	cin.ignore();			//для корректной работы cin.getline(response, 256);
 	cin.getline(response, 256);
 	if (strlen(response) == 0){
 		cout << "You must select a Student type";
